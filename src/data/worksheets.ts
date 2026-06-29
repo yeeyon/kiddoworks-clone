@@ -36,6 +36,8 @@ export const categories = [
 
 export const grades = ["Pre-K", "KG", "1st", "2nd", "3rd", "4th", "5th"] as const;
 
+const today = "2026-06-29";
+
 export const worksheets: Worksheet[] = [
   // Alphabets
   {
@@ -50,7 +52,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/tracing-letter-a.svg",
     likes: 8920,
     downloads: 27400,
-    dateAdded: "2024-01-10",
+    dateAdded: today,
   },
   {
     id: "w2",
@@ -64,7 +66,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/tracing-letter-b.svg",
     likes: 8450,
     downloads: 25100,
-    dateAdded: "2024-01-11",
+    dateAdded: "2026-06-28",
   },
   {
     id: "w3",
@@ -78,7 +80,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/tracing-letter-c.svg",
     likes: 8100,
     downloads: 23800,
-    dateAdded: "2024-01-12",
+    dateAdded: "2026-06-27",
   },
   {
     id: "w4",
@@ -92,7 +94,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/cursive-letter-a.svg",
     likes: 6200,
     downloads: 19800,
-    dateAdded: "2024-02-05",
+    dateAdded: "2026-06-26",
   },
   {
     id: "w5",
@@ -106,7 +108,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/missing-letter-apple.svg",
     likes: 7300,
     downloads: 21400,
-    dateAdded: "2024-02-10",
+    dateAdded: "2026-06-25",
   },
   // Numbers
   {
@@ -121,7 +123,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/tracing-number-1.svg",
     likes: 7600,
     downloads: 22800,
-    dateAdded: "2024-01-15",
+    dateAdded: "2026-06-24",
   },
   {
     id: "w7",
@@ -135,8 +137,9 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/missing-numbers-1-20.svg",
     likes: 9100,
     downloads: 28600,
-    dateAdded: "2024-01-20",
+    dateAdded: "2026-06-23",
   },
+  // Maths
   {
     id: "w8",
     slug: "counting-fruits",
@@ -149,9 +152,8 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/counting-fruits.svg",
     likes: 8800,
     downloads: 26500,
-    dateAdded: "2024-01-22",
+    dateAdded: "2026-06-22",
   },
-  // Maths
   {
     id: "w9",
     slug: "single-digit-addition",
@@ -164,7 +166,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/addition-single.svg",
     likes: 9500,
     downloads: 31200,
-    dateAdded: "2024-01-25",
+    dateAdded: "2026-06-21",
   },
   {
     id: "w10",
@@ -178,7 +180,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/addition-2digit.svg",
     likes: 8400,
     downloads: 25100,
-    dateAdded: "2024-01-26",
+    dateAdded: "2026-06-20",
   },
   {
     id: "w11",
@@ -192,7 +194,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/subtraction-single.svg",
     likes: 8700,
     downloads: 26300,
-    dateAdded: "2024-01-28",
+    dateAdded: "2026-06-19",
   },
   {
     id: "w12",
@@ -206,7 +208,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/times-table-2.svg",
     likes: 7900,
     downloads: 24200,
-    dateAdded: "2024-02-01",
+    dateAdded: "2026-06-18",
   },
   {
     id: "w13",
@@ -220,7 +222,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/multiplication-chart.svg",
     likes: 9300,
     downloads: 29800,
-    dateAdded: "2024-02-03",
+    dateAdded: "2026-06-17",
   },
   // English
   {
@@ -235,7 +237,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/sight-word-the.svg",
     likes: 8500,
     downloads: 25600,
-    dateAdded: "2024-02-12",
+    dateAdded: "2026-06-16",
   },
   {
     id: "w15",
@@ -249,7 +251,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/digraph-sh.svg",
     likes: 7800,
     downloads: 23100,
-    dateAdded: "2024-02-14",
+    dateAdded: "2026-06-15",
   },
   // Vocabulary
   {
@@ -264,7 +266,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/word-search-animals.svg",
     likes: 9100,
     downloads: 27700,
-    dateAdded: "2024-02-15",
+    dateAdded: "2026-06-14",
   },
   {
     id: "w17",
@@ -278,7 +280,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/crossword-animals.svg",
     likes: 8200,
     downloads: 24400,
-    dateAdded: "2024-02-18",
+    dateAdded: "2026-06-13",
   },
   {
     id: "w18",
@@ -292,7 +294,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/word-scramble-animals.svg",
     likes: 7600,
     downloads: 21900,
-    dateAdded: "2024-02-20",
+    dateAdded: "2026-06-12",
   },
   // Matching
   {
@@ -307,7 +309,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/matching-words.svg",
     likes: 8100,
     downloads: 24600,
-    dateAdded: "2024-02-22",
+    dateAdded: "2026-06-11",
   },
   {
     id: "w20",
@@ -321,7 +323,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/find-the-same-shapes.svg",
     likes: 7400,
     downloads: 22100,
-    dateAdded: "2024-02-24",
+    dateAdded: "2026-06-10",
   },
   // Find the difference
   {
@@ -336,7 +338,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/spot-the-difference-zombie.svg",
     likes: 9900,
     downloads: 31500,
-    dateAdded: "2024-03-01",
+    dateAdded: "2026-06-09",
   },
   {
     id: "w22",
@@ -350,7 +352,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/spot-the-difference-witch.svg",
     likes: 9400,
     downloads: 29100,
-    dateAdded: "2024-03-02",
+    dateAdded: "2026-06-08",
   },
   // Shapes
   {
@@ -365,7 +367,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/shapes-matching.svg",
     likes: 7200,
     downloads: 20900,
-    dateAdded: "2024-02-26",
+    dateAdded: "2026-06-07",
   },
   {
     id: "w24",
@@ -379,7 +381,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/shape-patterns.svg",
     likes: 6900,
     downloads: 20300,
-    dateAdded: "2024-02-27",
+    dateAdded: "2026-06-06",
   },
   // Coloring
   {
@@ -394,7 +396,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/coloring-elephant.svg",
     likes: 8600,
     downloads: 25400,
-    dateAdded: "2024-03-05",
+    dateAdded: "2026-06-05",
   },
   // Tracing Lines
   {
@@ -409,7 +411,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/tracing-lines-apple.svg",
     likes: 8300,
     downloads: 24800,
-    dateAdded: "2024-03-08",
+    dateAdded: "2026-06-04",
   },
   {
     id: "w27",
@@ -423,7 +425,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/handwriting-practice.svg",
     likes: 8680,
     downloads: 26987,
-    dateAdded: "2024-03-09",
+    dateAdded: "2026-06-03",
   },
   // Dot to Dot
   {
@@ -438,7 +440,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/dot-to-dot-duck.svg",
     likes: 7800,
     downloads: 23200,
-    dateAdded: "2024-03-10",
+    dateAdded: "2026-06-02",
   },
   // Mazes
   {
@@ -453,7 +455,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/maze-bee.svg",
     likes: 7100,
     downloads: 20800,
-    dateAdded: "2024-03-12",
+    dateAdded: "2026-06-01",
   },
   // General Knowledge
   {
@@ -468,7 +470,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/body-parts.svg",
     likes: 8200,
     downloads: 24000,
-    dateAdded: "2024-03-15",
+    dateAdded: "2026-05-31",
   },
   {
     id: "w31",
@@ -482,7 +484,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/telling-time-hour.svg",
     likes: 7600,
     downloads: 22400,
-    dateAdded: "2024-03-16",
+    dateAdded: "2026-05-30",
   },
   // Flash Cards
   {
@@ -497,7 +499,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/flashcards-alphabet.svg",
     likes: 8800,
     downloads: 26100,
-    dateAdded: "2024-03-18",
+    dateAdded: "2026-05-29",
   },
   // Drawing
   {
@@ -512,7 +514,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/draw-cat.svg",
     likes: 6700,
     downloads: 19500,
-    dateAdded: "2024-03-20",
+    dateAdded: "2026-05-28",
   },
   // Stickers
   {
@@ -527,7 +529,7 @@ export const worksheets: Worksheet[] = [
     image: "/worksheets/stickers-fun.svg",
     likes: 5400,
     downloads: 16200,
-    dateAdded: "2024-03-22",
+    dateAdded: "2026-05-27",
   },
 ];
 

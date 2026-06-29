@@ -3,27 +3,28 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Worksheet } from "@/data/worksheets";
-import { getRelatedWorksheets, categories } from "@/data/worksheets";
+import { getRelatedWorksheets } from "@/data/worksheets";
 import { WorksheetGrid } from "@/components/WorksheetGrid";
-import { Download, Heart, Printer, Share2, Calendar, GraduationCap, Tag } from "lucide-react";
+import { Download, Heart, Printer, Share2, Calendar, GraduationCap, Tag, CheckCircle } from "lucide-react";
+import { timeAgo } from "@/lib/time";
 
 export default function WorksheetDetail({ worksheet: ws }: { worksheet: Worksheet }) {
   const related = getRelatedWorksheets(ws, 4);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <nav className="text-sm text-slate-500">
-        <Link href="/" className="hover:text-emerald-600">Home</Link>
-        <span className="mx-2">/</span>
-        <Link href={`/category/${ws.categorySlug}`} className="hover:text-emerald-600">{ws.category}</Link>
-        <span className="mx-2">/</span>
+      <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+        <Link href="/" className="transition hover:text-emerald-600">Home</Link>
+        <span>/</span>
+        <Link href={`/category/${ws.categorySlug}`} className="transition hover:text-emerald-600">{ws.category}</Link>
+        <span>/</span>
         <span className="text-slate-800">{ws.title}</span>
       </nav>
 
       <div className="mt-8 grid gap-10 lg:grid-cols-5">
         {/* Left image */}
         <div className="lg:col-span-2">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-lg">
             <Image
               src={ws.image}
               alt={ws.title}
@@ -33,36 +34,52 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
               priority
             />
           </div>
+          <div className="mt-4 flex items-center justify-center gap-2 rounded-2xl bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-700">
+            <CheckCircle className="h-4 w-4" />
+            Free printable worksheet
+          </div>
         </div>
 
         {/* Right details */}
         <div className="lg:col-span-3">
-          <h1 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">{ws.title}</h1>
+          <div className="flex flex-wrap items-center gap-3">
+            <Link
+              href={`/category/${ws.categorySlug}`}
+              className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-emerald-600 transition hover:bg-emerald-100"
+            >
+              {ws.category}
+            </Link>
+            <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-slate-600">
+              {ws.grades.join(", ")}
+            </span>
+          </div>
+
+          <h1 className="mt-4 text-3xl font-extrabold text-slate-900 sm:text-4xl">{ws.title}</h1>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">{ws.description}</p>
 
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-500">
             <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">
-              <Calendar className="h-4 w-4" /> Added {new Date(ws.dateAdded).toLocaleDateString()}
+              <Calendar className="h-4 w-4 text-emerald-500" /> Added {timeAgo(ws.dateAdded)}
             </span>
             <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">
-              <GraduationCap className="h-4 w-4" /> {ws.grades.join(", ")}
+              <GraduationCap className="h-4 w-4 text-emerald-500" /> {ws.grades.join(", ")}
             </span>
             <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">
-              <Heart className="h-4 w-4" /> {ws.likes.toLocaleString()} likes
+              <Heart className="h-4 w-4 text-rose-400" /> {ws.likes.toLocaleString()} likes
             </span>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <button
               onClick={() => window.print()}
-              className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-emerald-700"
+              className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md transition hover:-translate-y-0.5 hover:bg-emerald-700"
             >
               <Printer className="h-5 w-5" /> Print Worksheet
             </button>
             <a
               href={ws.image}
               download
-              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 font-semibold text-slate-700 transition hover:bg-slate-50"
+              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-50"
             >
               <Download className="h-5 w-5" /> Download PDF
             </a>
@@ -74,13 +91,13 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
                   navigator.clipboard.writeText(window.location.href);
                 }
               }}
-              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 font-semibold text-slate-700 transition hover:bg-slate-50"
+              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-50"
             >
               <Share2 className="h-5 w-5" /> Share
             </button>
           </div>
 
-          <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6">
+          <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
             <h3 className="font-bold text-slate-900">Worksheet info</h3>
             <div className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
               <div className="flex justify-between border-b border-slate-100 pb-2">
@@ -106,7 +123,7 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
 
           <div className="mt-6">
             <h3 className="mb-3 flex items-center gap-2 font-bold text-slate-900">
-              <Tag className="h-4 w-4" /> Tags
+              <Tag className="h-4 w-4 text-emerald-500" /> Tags
             </h3>
             <div className="flex flex-wrap gap-2">
               {ws.tags.map((tag) => (
@@ -123,9 +140,12 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
       </div>
 
       {related.length > 0 && (
-        <section className="mt-16">
-          <h2 className="text-2xl font-extrabold text-slate-900">Related Worksheets</h2>
-          <div className="mt-6">
+        <section className="mt-20">
+          <div className="flex items-center gap-3">
+            <div className="h-6 w-1 rounded-full bg-emerald-500" />
+            <h2 className="text-2xl font-extrabold text-slate-900">Related Worksheets</h2>
+          </div>
+          <div className="mt-8">
             <WorksheetGrid worksheets={related} />
           </div>
         </section>
