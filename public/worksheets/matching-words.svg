@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Matching Words to Pictures</text>
+  <circle cx="90" cy="150" r="25" fill="#fecaca"/>
+  <text x="90" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#991b1b">apple</text>
+  <circle cx="90" cy="240" r="25" fill="#bfdbfe"/>
+  <text x="90" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1e3a8a">ball</text>
+  <circle cx="90" cy="330" r="25" fill="#fde68a"/>
+  <text x="90" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#78350f">sun</text>
+  <text x="260" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">ball</text>
+  <text x="260" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">sun</text>
+  <text x="260" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">apple</text>
+  <text x="200" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Draw a line from each word to its picture</text>
 </svg>

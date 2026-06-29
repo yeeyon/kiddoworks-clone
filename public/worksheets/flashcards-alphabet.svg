@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Alphabet Flash Cards</text>
+  <rect x="70" y="130" width="110" height="140" rx="12" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+  <text x="125" y="200" text-anchor="middle" font-family="Arial" font-size="48" font-weight="bold" fill="#1e40af">Aa</text>
+  <text x="125" y="250" text-anchor="middle" font-family="Arial" font-size="16" fill="#1e40af">apple</text>
+  <rect x="220" y="130" width="110" height="140" rx="12" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+  <text x="275" y="200" text-anchor="middle" font-family="Arial" font-size="48" font-weight="bold" fill="#14532d">Bb</text>
+  <text x="275" y="250" text-anchor="middle" font-family="Arial" font-size="16" fill="#14532d">ball</text>
+  <text x="200" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Print, cut and practice the alphabet</text>
+</svg>

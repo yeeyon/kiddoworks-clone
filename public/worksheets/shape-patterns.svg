@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Shape Patterns</text>
+  <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Draw the shape that comes next</text>
+  <circle cx="80" cy="200" r="25" fill="#f87171"/>
+  <rect x="130" y="175" width="50" height="50" rx="8" fill="#fbbf24"/>
+  <circle cx="250" cy="200" r="25" fill="#f87171"/>
+  <rect x="300" y="175" width="50" height="50" rx="8" fill="#fbbf24"/>
+  <text x="200" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">What comes next?</text>
+  <rect x="160" y="340" width="80" height="80" rx="12" fill="#fafaf9" stroke="#d6d3d1" stroke-width="2"/>
 </svg>

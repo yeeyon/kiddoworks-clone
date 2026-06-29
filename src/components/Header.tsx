@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Search, Menu, X } from "lucide-react";
+import { Search, Menu, X, Leaf } from "lucide-react";
 import { useState } from "react";
 import { categories } from "@/data/worksheets";
 
@@ -12,12 +12,12 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b bg-white/95 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 text-indigo-600">
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-500 text-lg font-bold text-white">
-              K
+          <Link href="/" className="flex items-center gap-2 text-emerald-600">
+            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-lime-500 text-lg font-bold text-white">
+              <Leaf className="h-5 w-5" />
             </span>
             <span className="hidden text-xl font-extrabold tracking-tight sm:inline">
-              KiddoWorks
+              SproutWorks
             </span>
           </Link>
 
@@ -26,14 +26,14 @@ export function Header() {
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
-                className="rounded-lg px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 hover:text-indigo-600"
+                className="rounded-lg px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 hover:text-emerald-600"
               >
                 {cat.name}
               </Link>
             ))}
             <Link
               href="/worksheet-generator"
-              className="rounded-lg bg-indigo-50 px-3 py-2 text-sm font-semibold text-indigo-600 hover:bg-indigo-100"
+              className="rounded-lg bg-emerald-50 px-3 py-2 text-sm font-semibold text-emerald-600 hover:bg-emerald-100"
             >
               Generator
             </Link>
@@ -73,7 +73,7 @@ export function Header() {
             ))}
             <Link
               href="/worksheet-generator"
-              className="block rounded-lg px-3 py-2 text-sm font-semibold text-indigo-600 hover:bg-indigo-50"
+              className="block rounded-lg px-3 py-2 text-sm font-semibold text-emerald-600 hover:bg-emerald-50"
               onClick={() => setMobileOpen(false)}
             >
               Worksheet Generator

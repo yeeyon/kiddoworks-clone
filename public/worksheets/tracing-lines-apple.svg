@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Tracing Lines - Apple</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Trace the line from stem to leaf</text>
+  <path d="M80,420 C120,300 280,300 320,420" fill="none" stroke="#d6d3d1" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M200,150 L200,280" fill="none" stroke="#d6d3d1" stroke-width="4" stroke-dasharray="10 8"/>
+  <circle cx="200" cy="350" r="90" fill="#fee2e2" stroke="#fecaca" stroke-width="2"/>
+  <path d="M200,260 L210,240 L190,240 Z" fill="#16a34a"/>
+  <path d="M200,240 Q230,220 240,250" fill="none" stroke="#16a34a" stroke-width="3"/>
 </svg>

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KiddoWorks - Free Printable Worksheets for Kids",
+  title: "SproutWorks - Free Printable Worksheets for Kids",
   description:
-    "Discover thousands of free printable worksheets for preschool, kindergarten and grades 1-5. Math, alphabet, coloring, tracing, puzzles and more.",
+    "Original free printable worksheets for preschool, kindergarten and grades 1-5. Math, alphabet, coloring, tracing, puzzles and more.",
   keywords: ["free worksheets", "printable worksheets", "kids worksheets", "preschool worksheets", "kindergarten worksheets"],
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
+      <body className="min-h-full flex flex-col bg-emerald-50/50 text-slate-900">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

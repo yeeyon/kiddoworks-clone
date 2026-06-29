@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Handwriting Practice</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Trace the dotted lines carefully</text>
+  <path d="M60,180 C150,140 250,220 340,180" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M60,260 L340,260" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M60,340 C150,380 250,300 340,340" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M60,420 L340,420" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="8 6"/>
+</svg>

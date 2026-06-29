@@ -1,6 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Crossword - Animals</text>
+  <g transform="translate(85,110)" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#334155">
+    <text x="0" y="0">1</text><text x="32" y="0">C</text><text x="64" y="0">A</text><text x="96" y="0">T</text>
+    <text x="32" y="32">2</text><text x="64" y="32">I</text>
+    <text x="32" y="64">D</text><text x="64" y="64">O</text><text x="96" y="64">G</text>
+  </g>
+  <rect x="117" y="88" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="149" y="88" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="181" y="88" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="149" y="120" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="181" y="120" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="117" y="152" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="149" y="152" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <rect x="181" y="152" width="32" height="32" fill="none" stroke="#cbd5e1"/>
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">1. Meows  2. Barks</text>
 </svg>

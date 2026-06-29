@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Download, Heart, Eye } from "lucide-react";
+import { Download, Heart } from "lucide-react";
 import type { Worksheet } from "@/data/worksheets";
 
 export function WorksheetCard({ worksheet }: { worksheet: Worksheet }) {
@@ -16,7 +16,7 @@ export function WorksheetCard({ worksheet }: { worksheet: Worksheet }) {
         />
       </Link>
       <div className="flex flex-1 flex-col p-4">
-        <Link href={`/category/${worksheet.categorySlug}`} className="text-xs font-semibold uppercase tracking-wide text-indigo-600 hover:underline">
+        <Link href={`/category/${worksheet.categorySlug}`} className="text-xs font-semibold uppercase tracking-wide text-emerald-600 hover:underline">
           {worksheet.category}
         </Link>
         <h3 className="mt-1 text-base font-bold leading-snug text-slate-900">

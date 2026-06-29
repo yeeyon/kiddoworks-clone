@@ -13,9 +13,9 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <nav className="text-sm text-slate-500">
-        <Link href="/" className="hover:text-indigo-600">Home</Link>
+        <Link href="/" className="hover:text-emerald-600">Home</Link>
         <span className="mx-2">/</span>
-        <Link href={`/category/${ws.categorySlug}`} className="hover:text-indigo-600">{ws.category}</Link>
+        <Link href={`/category/${ws.categorySlug}`} className="hover:text-emerald-600">{ws.category}</Link>
         <span className="mx-2">/</span>
         <span className="text-slate-800">{ws.title}</span>
       </nav>
@@ -55,7 +55,7 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
           <div className="mt-8 flex flex-wrap gap-3">
             <button
               onClick={() => window.print()}
-              className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-indigo-700"
+              className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-emerald-700"
             >
               <Printer className="h-5 w-5" /> Print Worksheet
             </button>
@@ -85,7 +85,7 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
             <div className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
               <div className="flex justify-between border-b border-slate-100 pb-2">
                 <span className="text-slate-500">Subject</span>
-                <Link href={`/category/${ws.categorySlug}`} className="font-medium text-indigo-600 hover:underline">
+                <Link href={`/category/${ws.categorySlug}`} className="font-medium text-emerald-600 hover:underline">
                   {ws.category}
                 </Link>
               </div>
@@ -112,7 +112,7 @@ export default function WorksheetDetail({ worksheet: ws }: { worksheet: Workshee
               {ws.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700"
+                  className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700"
                 >
                   {tag}
                 </span>

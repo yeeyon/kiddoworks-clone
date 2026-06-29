@@ -1,6 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Digraph SH</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#334155">sh</text>
+  <text x="200" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Match the picture to the word.</text>
+  <circle cx="130" cy="310" r="28" fill="#e0e7ff" stroke="#818cf8"/>
+  <text x="130" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3730a3">shoe</text>
+  <circle cx="200" cy="310" r="28" fill="#fce7f3" stroke="#f9a8d4"/>
+  <text x="200" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#831843">ship</text>
+  <circle cx="270" cy="310" r="28" fill="#dcfce7" stroke="#86efac"/>
+  <text x="270" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14532d">shell</text>
+  <text x="200" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">sh__</text>
 </svg>

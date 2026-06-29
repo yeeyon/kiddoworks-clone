@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#0f766e">Tracing the Letter A</text>
+  <text x="200" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#a8a29e">Trace the dotted lines</text>
+  <text x="110" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="130" font-weight="bold" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="10 8">A</text>
+  <text x="290" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="130" font-weight="bold" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="10 8">a</text>
+  <path d="M120 360 Q200 300 280 360" fill="none" stroke="#d6d3d1" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="200" cy="430" r="34" fill="#dcfce7"/>
+  <path d="M190 430 L198 438 L214 422" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

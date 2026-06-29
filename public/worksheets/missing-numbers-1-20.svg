@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Missing Numbers 1-20</text>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#334155">1  2  _  4  5</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#334155">_  7  8  _  10</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#334155">11  _  13  14  _</text>
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#334155">16  17  _  19  _</text>
+  <rect x="100" y="340" width="200" height="50" rx="8" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="200" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#065f46">Number line: 1 · 2 · 3 · ... · 20</text>
 </svg>

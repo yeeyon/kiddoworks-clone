@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Word Scramble - Animals</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#334155">TAC</text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#334155">GDO</text>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#334155">HIFS</text>
+  <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Unscramble each animal name</text>
+  <rect x="130" y="380" width="140" height="40" rx="8" fill="#fafaf9" stroke="#d6d3d1"/>
+</svg>

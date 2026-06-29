@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Spot the Difference - Witch</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">How many differences can you spot?</text>
+  <g transform="translate(60,140)">
+    <circle cx="60" cy="60" r="50" fill="#f3e8ff" stroke="#d8b4fe"/>
+    <polygon points="60,20 40,60 80,60" fill="#7e22ce"/>
+    <circle cx="50" cy="70" r="5" fill="#1f2937"/>
+    <circle cx="70" cy="70" r="5" fill="#1f2937"/>
+  </g>
+  <g transform="translate(220,140)">
+    <circle cx="60" cy="60" r="50" fill="#f3e8ff" stroke="#d8b4fe"/>
+    <polygon points="60,20 30,60 90,60" fill="#7e22ce"/>
+    <circle cx="50" cy="70" r="5" fill="#1f2937"/>
+    <circle cx="70" cy="70" r="5" fill="#1f2937"/>
+    <circle cx="95" cy="95" r="8" fill="#000000"/>
+  </g>
+</svg>

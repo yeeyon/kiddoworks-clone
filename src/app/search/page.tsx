@@ -55,7 +55,7 @@ function SearchFormAndResults() {
           />
           <button
             type="submit"
-            className="rounded-xl bg-indigo-600 px-5 py-2.5 font-semibold text-white hover:bg-indigo-700"
+            className="rounded-xl bg-emerald-600 px-5 py-2.5 font-semibold text-white hover:bg-emerald-700"
           >
             Search
           </button>

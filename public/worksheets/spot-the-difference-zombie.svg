@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Spot the Difference - Zombie</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Can you find 3 differences?</text>
+  <g transform="translate(60,140)">
+    <circle cx="60" cy="60" r="50" fill="#dcfce7" stroke="#86efac"/>
+    <circle cx="45" cy="50" r="8" fill="#1f2937"/>
+    <circle cx="75" cy="50" r="8" fill="#1f2937"/>
+    <rect x="40" y="80" width="40" height="8" rx="4" fill="#1f2937"/>
+  </g>
+  <g transform="translate(220,140)">
+    <circle cx="60" cy="60" r="50" fill="#dcfce7" stroke="#86efac"/>
+    <circle cx="45" cy="50" r="8" fill="#1f2937"/>
+    <circle cx="75" cy="50" r="6" fill="#1f2937"/>
+    <rect x="40" y="80" width="40" height="8" rx="4" fill="#1f2937"/>
+    <circle cx="90" cy="90" r="6" fill="#f87171"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">Original</text>
+</svg>

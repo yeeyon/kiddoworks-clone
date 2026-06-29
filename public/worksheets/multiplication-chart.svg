@@ -1,6 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0f766e">Multiplication Chart 1-12</text>
+  <g transform="translate(90,110)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#334155">x</text>
+    <text x="36" y="0" font-family="Arial, sans-serif" font-size="14" fill="#334155">1</text>
+    <text x="72" y="0" font-family="Arial, sans-serif" font-size="14" fill="#334155">2</text>
+    <text x="108" y="0" font-family="Arial, sans-serif" font-size="14" fill="#334155">3</text>
+    <text x="144" y="0" font-family="Arial, sans-serif" font-size="14" fill="#334155">4</text>
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="14" fill="#334155">1</text>
+    <text x="36" y="28" font-family="Arial, sans-serif" font-size="14" fill="#334155">1</text>
+    <text x="72" y="28" font-family="Arial, sans-serif" font-size="14" fill="#334155">2</text>
+    <text x="108" y="28" font-family="Arial, sans-serif" font-size="14" fill="#334155">3</text>
+    <text x="144" y="28" font-family="Arial, sans-serif" font-size="14" fill="#334155">4</text>
+    <text x="0" y="56" font-family="Arial, sans-serif" font-size="14" fill="#334155">2</text>
+    <text x="36" y="56" font-family="Arial, sans-serif" font-size="14" fill="#334155">2</text>
+    <text x="72" y="56" font-family="Arial, sans-serif" font-size="14" fill="#334155">4</text>
+    <text x="108" y="56" font-family="Arial, sans-serif" font-size="14" fill="#334155">6</text>
+    <text x="144" y="56" font-family="Arial, sans-serif" font-size="14" fill="#334155">8</text>
+    <text x="0" y="84" font-family="Arial, sans-serif" font-size="14" fill="#334155">3</text>
+    <text x="36" y="84" font-family="Arial, sans-serif" font-size="14" fill="#334155">3</text>
+    <text x="72" y="84" font-family="Arial, sans-serif" font-size="14" fill="#334155">6</text>
+    <text x="108" y="84" font-family="Arial, sans-serif" font-size="14" fill="#334155">9</text>
+    <text x="144" y="84" font-family="Arial, sans-serif" font-size="14" fill="#334155">12</text>
+  </g>
+  <text x="200" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Full 12x12 chart inside</text>
 </svg>

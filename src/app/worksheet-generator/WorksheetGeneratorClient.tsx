@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { categories } from "@/data/worksheets";
-import { Settings, Plus, Minus, RefreshCw, Download, Printer } from "lucide-react";
+import { Settings, RefreshCw, Download, Printer } from "lucide-react";
 
 type Op = "addition" | "subtraction" | "multiplication" | "division";
 
@@ -46,7 +45,7 @@ export default function WorksheetGeneratorClient() {
       <div className="mt-10 grid gap-8 lg:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm lg:col-span-1">
           <h2 className="flex items-center gap-2 text-lg font-bold text-slate-900">
-            <Settings className="h-5 w-5 text-indigo-600" /> Settings
+            <Settings className="h-5 w-5 text-emerald-600" /> Settings
           </h2>
 
           <div className="mt-6 space-y-5">
@@ -55,7 +54,7 @@ export default function WorksheetGeneratorClient() {
               <select
                 value={operation}
                 onChange={(e) => setOperation(e.target.value as Op)}
-                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-indigo-500"
+                className="mt-1 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-emerald-500"
               >
                 {Object.entries(labels).map(([k, v]) => (
                   <option key={k} value={k}>
@@ -73,7 +72,7 @@ export default function WorksheetGeneratorClient() {
                 max={30}
                 value={count}
                 onChange={(e) => setCount(Number(e.target.value))}
-                className="mt-2 w-full accent-indigo-600"
+                className="mt-2 w-full accent-emerald-600"
               />
             </div>
 
@@ -85,13 +84,13 @@ export default function WorksheetGeneratorClient() {
                 max={100}
                 value={max}
                 onChange={(e) => setMax(Number(e.target.value))}
-                className="mt-2 w-full accent-indigo-600"
+                className="mt-2 w-full accent-emerald-600"
               />
             </div>
 
             <button
               onClick={generate}
-              className="flex w-full items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 font-semibold text-white shadow-md transition hover:bg-indigo-700"
+              className="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-600 px-4 py-3 font-semibold text-white shadow-md transition hover:bg-emerald-700"
             >
               <RefreshCw className="h-5 w-5" /> Generate Worksheet
             </button>
@@ -111,7 +110,7 @@ export default function WorksheetGeneratorClient() {
               </button>
               <button
                 disabled={problems.length === 0}
-                className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-2 text-sm font-medium text-white hover:bg-indigo-700 disabled:opacity-50"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-2 text-sm font-medium text-white hover:bg-emerald-700 disabled:opacity-50"
               >
                 <Download className="h-4 w-4" /> Download
               </button>
@@ -139,13 +138,13 @@ export default function WorksheetGeneratorClient() {
       </div>
 
       <section className="mt-16 grid gap-6 md:grid-cols-3">
-        <div className="rounded-2xl bg-indigo-50 p-6">
-          <h3 className="font-bold text-indigo-900">1. Choose your topic</h3>
-          <p className="mt-2 text-sm text-indigo-700">Pick an operation and set the difficulty range.</p>
-        </div>
         <div className="rounded-2xl bg-emerald-50 p-6">
-          <h3 className="font-bold text-emerald-900">2. Make it yours</h3>
-          <p className="mt-2 text-sm text-emerald-700">Customize the number of problems to match your lesson plan.</p>
+          <h3 className="font-bold text-emerald-900">1. Choose your topic</h3>
+          <p className="mt-2 text-sm text-emerald-700">Pick an operation and set the difficulty range.</p>
+        </div>
+        <div className="rounded-2xl bg-teal-50 p-6">
+          <h3 className="font-bold text-teal-900">2. Make it yours</h3>
+          <p className="mt-2 text-sm text-teal-700">Customize the number of problems to match your lesson plan.</p>
         </div>
         <div className="rounded-2xl bg-amber-50 p-6">
           <h3 className="font-bold text-amber-900">3. Print or download</h3>

@@ -9,7 +9,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   return {
-    title: "Categories - KiddoWorks",
+    title: "Categories - SproutWorks",
   };
 }
 
@@ -21,7 +21,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     return (
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <h1 className="text-center text-3xl font-extrabold text-slate-900">All Worksheets</h1>
-        <p className="mt-2 text-center text-slate-600">Browse every printable worksheet in our collection.</p>
+        <p className="mt-2 text-center text-slate-600">Browse every original printable worksheet in our collection.</p>
         <div className="mt-8">
           <WorksheetGrid worksheets={worksheets} />
         </div>
@@ -47,7 +47,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             href={`/category/${c.slug}`}
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
               c.slug === slug
-                ? "bg-indigo-600 text-white"
+                ? "bg-emerald-600 text-white"
                 : "bg-white text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50"
             }`}
           >

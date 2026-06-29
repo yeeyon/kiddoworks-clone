@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Single Digit Subtraction</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">5 - 2 =</text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">4 - 1 =</text>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">6 - 3 =</text>
+  <circle cx="130" cy="350" r="14" fill="#60a5fa"/>
+  <circle cx="162" cy="350" r="14" fill="#60a5fa"/>
+  <circle cx="194" cy="350" r="14" fill="#60a5fa" opacity="0.3"/>
+  <line x1="180" y1="332" x2="208" y2="372" stroke="#ef4444" stroke-width="3"/>
+  <text x="200" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Cross out the dots you take away</text>
 </svg>

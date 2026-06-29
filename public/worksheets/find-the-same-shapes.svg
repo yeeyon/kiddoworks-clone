@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Find the Same - Shapes</text>
+  <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Circle the shape that matches the target</text>
+  <circle cx="200" cy="160" r="25" fill="#f87171"/>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">Target</text>
+  <rect x="70" y="290" width="30" height="30" fill="#fbbf24"/>
+  <circle cx="170" cy="305" r="15" fill="#60a5fa"/>
+  <circle cx="270" cy="305" r="22" fill="#f87171"/>
+  <polygon points="330,290 345,320 315,320" fill="#a78bfa"/>
+</svg>

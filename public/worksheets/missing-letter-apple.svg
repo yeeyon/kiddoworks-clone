@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Missing Letters</text>
+  <text x="200" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#a8a29e">Fill in the missing letters</text>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">A  _  C  _  E</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">_  H  I  _  K</text>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#334155">M  _  O  _  Q</text>
+  <circle cx="200" cy="390" r="50" fill="#fee2e2" stroke="#fecaca" stroke-width="2"/>
+  <path d="M185 370 Q200 360 215 370 Q225 390 215 410 Q200 420 185 410 Q175 390 185 370" fill="#ef4444"/>
+  <path d="M200 360 L205 345 L195 345 Z" fill="#16a34a"/>
 </svg>

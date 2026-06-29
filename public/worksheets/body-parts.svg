@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Body Parts Labeling</text>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Draw a line from each word to the body part</text>
+  <circle cx="200" cy="160" r="25" fill="#fde68a" stroke="#fbbf24" stroke-width="2"/>
+  <line x1="200" y1="185" x2="200" y2="300" stroke="#fde68a" stroke-width="3"/>
+  <line x1="200" y1="220" x2="150" y2="260" stroke="#fde68a" stroke-width="3"/>
+  <line x1="200" y1="220" x2="250" y2="260" stroke="#fde68a" stroke-width="3"/>
+  <line x1="200" y1="300" x2="170" y2="380" stroke="#fde68a" stroke-width="3"/>
+  <line x1="200" y1="300" x2="230" y2="380" stroke="#fde68a" stroke-width="3"/>
+  <text x="70" y="170" font-family="Arial, sans-serif" font-size="16" fill="#334155">head</text>
+  <text x="280" y="270" font-family="Arial, sans-serif" font-size="16" fill="#334155">arm</text>
+  <text x="70" y="390" font-family="Arial, sans-serif" font-size="16" fill="#334155">leg</text>
 </svg>

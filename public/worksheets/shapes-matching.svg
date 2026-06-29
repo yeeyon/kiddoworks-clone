@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
-  <rect width="400" height="520" fill="#f8fafc"/>
-  <rect x="30" y="30" width="340" height="460" rx="16" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
-  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="110" font-weight="bold" fill="#6366f1">K</text>
-  <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Free Printable Worksheet</text>
+  <rect width="400" height="520" fill="#fdfcf8"/>
+  <rect x="16" y="16" width="368" height="488" rx="20" fill="#ffffff" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="200" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Shapes Matching</text>
+  <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Draw a line from each object to its shape</text>
+  <circle cx="100" cy="180" r="25" fill="#f87171"/>
+  <rect x="75" y="250" width="50" height="50" rx="8" fill="#fbbf24"/>
+  <polygon points="100,350 125,390 75,390" fill="#60a5fa"/>
+  <text x="260" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">circle</text>
+  <text x="260" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">square</text>
+  <text x="260" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">triangle</text>
 </svg>
