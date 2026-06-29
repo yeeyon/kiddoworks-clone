@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520">
+  <rect width="400" height="520" fill="#f8fafc"/>
+  <rect x="30" y="30" width="340" height="460" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="200" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4f46e5">Tracing the Letter A</text>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Trace uppercase and lowercase A</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#cbd5e1">Aa</text>
+  <path d="M120 300 Q200 260 280 300" fill="none" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="200" cy="400" r="30" fill="#e0e7ff"/>
+  <path d="M185 400 L195 410 L215 390" fill="none" stroke="#4f46e5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
